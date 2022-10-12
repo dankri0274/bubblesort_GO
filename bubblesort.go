@@ -7,7 +7,7 @@ import (
 func main() {
 	var numbers [256]int
 
-	var numbersToSort = 0
+	var numbersToSort int = 0
 	var temp int = 0
 
 	fmt.Print("How many numbers to sort: ")
